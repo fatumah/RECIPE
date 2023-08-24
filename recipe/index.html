@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>recipes</title>
+</head>
+<style type="text/css">
+	main{
+		display: flex;
+		
+		background-color: black;
+		color: white;
+	}
+	a{
+	 text-decoration: none;
+	 color: #FFFFFF;
+	font-size: 1rem;
+		}
+	a:hover{
+		  color: orange;
+	}
+	.navbar{
+		  width: 100%;
+		  height: 60px;
+		  max-width: 1200px;
+		  margin: 0 auto;
+		  display: flex;
+		  align-items: center;
+		  justify-content: space-between;
+		  
+		  
+		}
+	.nav-list{
+		  display: flex;
+		  gap: 2rem;
+		  
+	}
+	.nav-item{
+		  margin-bottom: 1.5rem;
+		  outline: none;
+	}
+	.nav-link{
+		  color: white;
+		  font-weight: bold;
+		  font-size: 20px;
+
+		}
+	header{
+		background-color: black;
+		color: white;
+		z-index: 100;
+		position: relative;
+		padding: 0 2rem;
+	}
+	h1,h2{
+		text-align: center;
+	}
+		
+	img{
+		border: 1px solid white;
+		border-radius: 10px;
+		width: 500px;
+		height: 70vh;
+		margin-left: 50px;
+	}
+	P{
+		text-align: center;
+		font-weight: bold;
+	}
+	
+	*{
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		list-style: none;
+		background-color:sky blue;
+		font-size: 'Poppins',sans-serif;
+	}
+
+</style>
+<body>
+	<header>
+		<h1>PILAO RECIPES</h1>
+		<div class="navbar">
+	        <ul class="nav-list">
+	            <li class="nav-item"><a href="index.php" class="nav-link">HOME</a></li>  
+	        </ul>
+        
+        </div>
+	</header>
+	<main>
+		
+		<div class="CHICKEN">
+			<h2>CHICKEN PILAO</h2>
+			<a href="chicken.php"><img src="images/images 1.jpeg"></a>
+		</div>
+		<div class="MEAT">
+			<h2>MEAT PILAO</h2>
+			<a href="meat.php"><img src="images/images2.jpeg"></a>
+		</div>
+	</main>
+	<footer>
+		<p>CONTACT ME <br> 07014469765 / 0702334678 FOR MORE RECIPES</p>
+	</footer>
+</body>
+</html>
